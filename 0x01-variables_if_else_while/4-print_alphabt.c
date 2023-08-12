@@ -1,13 +1,11 @@
+#include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
 #include <string.h>
-/* betty style doc for function main goes there */
+
 /**
- * main - When I was having that alphabet soup,
- * I never thought that it would pay off.
+ * main - Prints the alphabet without q and e.
  *
- * Return: Always 0 Success
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -20,7 +18,6 @@ int main(void)
 			putchar(i);
 		}
 	}
-	
 	putchar('\n');
 	return (0);
 }
