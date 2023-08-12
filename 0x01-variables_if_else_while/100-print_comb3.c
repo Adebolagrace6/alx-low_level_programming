@@ -5,7 +5,7 @@
 /**
  * main -  Inventing is a combination of brains and materials.
  * The more brains you use, the less material you need
- * 
+ *
  * Return: ALways 0 Success
  */
 int main(void)
