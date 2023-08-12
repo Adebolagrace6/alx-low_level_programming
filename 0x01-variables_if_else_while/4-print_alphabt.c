@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+/* more headers goes there */
 #include <string.h>
-
+/* betty style doc for function main goes there */
 /**
- * main - Prints the alphabet without q and e.
+ * main - When I was having that alphabet soup,
+ * I never thought that it would pay off.
  *
  * Return: Always 0 (Success)
  */
