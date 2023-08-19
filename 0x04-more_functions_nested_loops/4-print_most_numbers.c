@@ -3,7 +3,7 @@
 /**
  * print_most_numbers - I believe in numbers and signs
  *
- * Return: New line 
+ * Return: New line
  */
 
 void print_most_numbers(void)
