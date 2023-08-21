@@ -9,16 +9,16 @@
 
 void print_array(int *a, int n)
 {
-	int i;
+	int l;
 
-	for (i = 0; i < (n - 1); i++)
+	for (l = 0; l < (n - 1); l++)
 	{
 
-		printf("%d, ", a[i]);
+		printf("%d, ", a[l]);
 
 	}
 
-	if (i == (n - 1))
+	if (l == (n - 1))
 
 	{
 
