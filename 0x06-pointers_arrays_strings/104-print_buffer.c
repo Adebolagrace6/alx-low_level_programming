@@ -1,11 +1,13 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * print_buffer - prints a buffer.
- * @b: 1st string
- * @size: second string
- * Return: all letters in base ROT13
+ * print_buffer - buffer
+ * @b: char buffer
+ * @size: size
+ * Return: buffer
  */
+
 void print_buffer(char *b, int size)
 {
 	int o, j, i;
@@ -26,22 +28,23 @@ void print_buffer(char *b, int size)
 			if (i < j)
 				printf("%02x", *(b + o + i));
 			else
-				printf(" ");
+				printf("  ");
 			if (i % 2)
+			{
 				printf(" ");
+			}
 		}
-	}
-	for (i = 0; i < j; i++)
-	{
-		int c = *(b + o + i);
-
-		if (c < 32 || c > 132)
+		for (i = 0; i < j; i++)
 		{
-			c = '.';
+			int c = *(b + o + i);
+
+			if (c < 32 || c > 132)
+			{
+				c = '.';
+			}
+			printf("%c", c);
 		}
 		printf("\n");
 		o += 10;
-
 	}
 }
-
