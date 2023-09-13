@@ -4,7 +4,7 @@
 /**
  * main - prints
  * @argc: argc
- * @argv: argv 
+ * @argv: argv
  * Return: 0
  */
 
